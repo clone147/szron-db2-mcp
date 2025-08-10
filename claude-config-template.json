@@ -1,0 +1,11 @@
+{
+  "mcpServers": {
+    "db2-server": {
+      "command": "node",
+      "args": [
+        "C:\\MCP-Servers\\db2\\dist\\dist\\index.js",
+        "C:\\MCP-Servers\\db2\\db2.prp"
+      ]
+    }
+  }
+}

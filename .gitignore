@@ -1,0 +1,33 @@
+# Node modules
+node_modules/
+
+# Build output
+dist/
+
+# Logs
+*.log
+logs/
+
+# Environment and config
+.env
+*.prp
+claude-config.json
+
+# Local-only credentials (real DB2 logins/passwords — never publish)
+CREDENTIALS.local.md
+*.local.md
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Temporary files
+*.tmp
+temp/
+tmp/
