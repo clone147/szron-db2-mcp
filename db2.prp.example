@@ -1,0 +1,18 @@
+# DB2 MCP Server configuration.
+# Copy this file to db2.prp and replace the <placeholders> with your own values.
+# db2.prp is gitignored — never commit real credentials.
+
+Prefix=szron-db2-mcp
+ServerName=SzronDB2_MCP_Server
+ServerVersion=1.0
+
+# DB2 connection string.
+# Keys: DATABASE, HOSTNAME, PORT, PROTOCOL, UID, PWD,
+#       and optionally CURRENTSCHEMA, SECURITY, CONNECTTIMEOUT.
+ConnectionString=DATABASE=<database>;HOSTNAME=<host>;PORT=50000;PROTOCOL=TCPIP;UID=<user>;PWD=<password>;CURRENTSCHEMA=<schema>
+
+# Optional: comma-separated list of tables to expose (omit = all tables).
+# Tables=TABLE1,TABLE2
+
+# Optional: log file path.
+LogFile=mcp-server.log

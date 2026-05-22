@@ -1,10 +1,10 @@
 {
   "mcpServers": {
-    "db2-server": {
+    "szron-db2-mcp": {
       "command": "node",
       "args": [
-        "C:\\MCP-Servers\\db2\\dist\\dist\\index.js",
-        "C:\\MCP-Servers\\db2\\db2.prp"
+        "C:\\path\\to\\szron-db2-mcp\\dist\\index.js",
+        "C:\\path\\to\\szron-db2-mcp\\db2.prp"
       ]
     }
   }

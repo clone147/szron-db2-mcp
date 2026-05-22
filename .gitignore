@@ -11,6 +11,7 @@ logs/
 # Environment and config
 .env
 *.prp
+!db2.prp.example
 claude-config.json
 
 # Local-only credentials (real DB2 logins/passwords — never publish)
